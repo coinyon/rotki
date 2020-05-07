@@ -1,1 +1,2 @@
+graft rotkehlchen/
 recursive-include rotkehlchen *.py
