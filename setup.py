@@ -27,7 +27,7 @@ setup(
     packages=find_packages('.'),
     package_data={
         # TODO: Investigate if it's needed. rotkehlchen.spec is where files seem to be copied
-        'rotkehlchen': ['data/*.json', 'data/*.meta', 'data/*.db'],
+        'rotkehlchen': ['data/*.json', 'data/*.meta', 'data/*.db', 'chain/ethereum/modules/dxdaomesa/data/contracts.json'],
     },
     python_requires='>=3.9',
     install_requires=requirements,
